@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: azure;
+    line-height: normal;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px 0;
+}
+
+
+
+.hero-image{
+    flex: 1;
+    background-color: #6d747d;
+    color: #e5e7eb;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    flex: 1;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+    
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0 16px;
+}
+
+.signup a{
+    display: inline-block;
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}

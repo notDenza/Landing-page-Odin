@@ -1,0 +1,8 @@
+# Reference material (not part of the deliverable)
+refrance images/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
